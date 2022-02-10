@@ -1,4 +1,4 @@
-import { MultipartReader, Router } from "../../../deps/prod.ts";
+import { MultipartReader, Router } from "../../deps.ts";
 import { FileMeta } from "./models.ts";
 import { logger, URLs } from "./utils.ts";
 import { IndexPage } from "./ui.ts";
