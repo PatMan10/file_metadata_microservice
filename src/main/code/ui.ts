@@ -77,7 +77,7 @@ export const IndexPage = () => `
     <main>
       <div id="form-container" class="flex-col-aiC mb-4">
         <h2>Upload File</h2>
-        <form action="${URLs.POST_FILE}" method="post" enctype=""multipart/form-data>
+        <form action="${URLs.POST_FILE}" method="post" enctype="multipart/form-data">
           <fieldset class="file-fieldset">
             <legend>File Uploader</legend>
             <div class="flex-row-aiC flex-jcSE">

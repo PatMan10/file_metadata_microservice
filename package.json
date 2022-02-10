@@ -6,7 +6,7 @@
   "repository": "https://github.com/PatMan10/file_metadata_microservice",
   "author": "PatMan10",
   "scripts": {
-    "start": "deno run --allow-net --allow-read --allow-env --watch src/main/code/app.ts",
+    "start": "deno run --allow-net --allow-read --allow-write --allow-env --watch src/main/code/app.ts",
     "test": "deno test --allow-net --allow-read --allow-env --unstable"
   }
 }
